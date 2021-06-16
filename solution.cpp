@@ -12,7 +12,7 @@ using namespace std;
 
 int totalBlockWeight = 4*1e6;
 //Global variables 
-int toint(const string &s) {stringstream ss; ss << s; int x; ss >> x; return x;} // tried to use stoi , couldn't use it (was throwing an error)
+int toint(const string &s) {stringstream ss; ss << s; int x; ss >> x; return x;} 
 string file_name = "mempool.csv";
 vector<string> output; // output vector to store txid which will be 
 int total_weight_in_block =0 , total_fee_earned=0;
