@@ -2,7 +2,9 @@
 Summer of bitcoin Submission 
 
 Table of content 
-•	Reasoning behind logic 
+
+•	Reasoning behind logic
+
 •	Tradeoffs 
 
 Reasoning behind logic
@@ -10,9 +12,13 @@ Reasoning behind logic
 Went with Fractional knapsack (greedy) approach to the problem statement 
 
 •	First made the CSV file readable to C++ language 
-•	Created a map of the transactions, key being Index of transaction 
+
+•	Created a map of the transactions, key being Index of transaction
+
 •	Created a "set" of all transactions, with parameters, Ratio = fee/weight, and mapped key of the transaction as the second parameter. 
-•	Once obtained transaction with highest ratio->fee, checked if the parents of the transaction exist before jotting down the transaction-id. 
+
+•	Once obtained transaction with highest ratio->fee, checked if the parents of the transaction exist before jotting down the transaction-id.
+
 •	If all flags came in favor of the transaction, added the transaction to the final block. 
 
 Tradeoffs 
