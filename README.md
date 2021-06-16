@@ -28,6 +28,9 @@ Tradeoffs
 2. Combing all transactions having parent transactions into nodes and thus working over nodes could have reduced time complexity. This can be done when dealing with datasets where every transaction has a parent transaction. 
 
 Complexity of Code O(n^3) 
+
 Total weight of the final Block: 3999936 
-Total fee earned by miner (objective): 4803570 
+
+Total fee earned by miner (objective): 4803570
+
 Total transactions considered: 2668
