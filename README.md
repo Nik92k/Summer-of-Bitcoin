@@ -23,7 +23,7 @@ Went with Fractional knapsack (greedy) approach to the problem statement
 
 Tradeoffs 
 
-1. With the implementation of DSU(Disjoint Union Graphs), the complexity could have been reduced to O(n^2) instead of currently being O(n^3). Implementation couldn’t be done due to lack of proper knowledge/time constraints for implementation. 
+1. With the implementation of DSU(Disjoint Union Graphs), the complexity could have been reduced to O(n^2) instead of currently being O(n^3). Implementation couldn’t be done due to lack of proper knowledge/time constraints for implementation. (https://en.wikipedia.org/wiki/Disjoint_union_of_graphs)
 
 2. Combing all transactions having parent transactions into nodes and thus working over nodes could have reduced time complexity. This can be done when dealing with datasets where every transaction has a parent transaction. 
 
@@ -34,3 +34,6 @@ Total weight of the final Block: 3999936
 Total fee earned by miner (objective): 4803570
 
 Total transactions considered: 2668
+
+Repos Used
+//https://en.wikipedia.org/wiki/Knapsack_problem
