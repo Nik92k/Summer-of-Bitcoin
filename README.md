@@ -5,7 +5,7 @@ Table of content
 
  •	Reasoning behind logic
 
- •	Tradeoffs 
+ •	References  
 
 Reasoning behind logic
  
